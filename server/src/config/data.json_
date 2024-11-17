@@ -1,0 +1,727 @@
+{
+    "currency": [
+        {
+            "name": "KRW",
+            "image": "https://storage.goodfriendszone.com/uploads/permanent/1703094140698.webp",
+            "currencySymbol": "KRW",
+            "type": "fiat"
+        },
+        {
+            "name": "Bitcoin",
+            "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=029",
+            "currencySymbol": "BTC",
+            "type": "crypto"
+        },
+        {
+            "name": "Ethereum",
+            "image": "https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=029",
+            "currencySymbol": "ETH",
+            "type": "crypto"
+        },
+        {
+            "name": "tether usd",
+            "image": "https://cryptologos.cc/logos/tether-usdt-logo.svg?v=029",
+            "currencySymbol": "USDT",
+            "type": "crypto"
+        },
+        {
+            "name": "USD coin",
+            "image": "https://cryptologos.cc/logos/usd-coin-usdc-logo.svg?v=029",
+            "currencySymbol": "USDC",
+            "type": "crypto"
+        },
+        {
+            "name": "TRON",
+            "image": "https://cryptologos.cc/logos/tron-trx-logo.svg?v=029",
+            "currencySymbol": "TRX",
+            "type": "crypto"
+        },
+        {
+            "name": "Binance",
+            "image": "https://cryptologos.cc/logos/bnb-bnb-logo.svg?v=029",
+            "currencySymbol": "BNB",
+            "type": "crypto"
+        },
+        {
+            "name": "Binance USD",
+            "image": "https://cryptologos.cc/logos/binance-usd-busd-logo.svg?v=029",
+            "currencySymbol": "BUSD",
+            "type": "crypto"
+        },
+        {
+            "name": "Polygon",
+            "image": "https://cryptologos.cc/logos/polygon-matic-logo.svg?v=029",
+            "currencySymbol": "MATIC",
+            "type": "crypto"
+        },
+        {
+            "name": "CRONOS",
+            "image": "https://cryptologos.cc/logos/cronos-cro-logo.svg?v=029",
+            "currencySymbol": "CRO",
+            "type": "crypto"
+        },
+        {
+            "name": "Avalanche",
+            "image": "https://cryptologos.cc/logos/avalanche-avax-logo.svg?v=029",
+            "currencySymbol": "AVAX",
+            "type": "crypto"
+        },
+        {
+            "name": "Fantom",
+            "image": "https://cryptologos.cc/logos/fantom-ftm-logo.svg?v=029",
+            "currencySymbol": "FTM",
+            "type": "crypto"
+        },
+        {
+            "name": "Arbitrum",
+            "image": "https://cryptologos.cc/logos/arbitrum-arb-logo.svg?v=029",
+            "currencySymbol": "ARB",
+            "type": "crypto"
+        },
+        {
+            "name": "Dogecoin",
+            "image": "https://cryptologos.cc/logos/dogecoin-doge-logo.svg?v=029",
+            "currencySymbol": "DOGE",
+            "type": "crypto"
+        },
+        {
+            "name": "PancakeSwap",
+            "image": "https://cryptologos.cc/logos/pancakeswap-cake-logo.svg?v=029",
+            "currencySymbol": "CAKE",
+            "type": "crypto"
+        },
+        {
+            "name": "SHIBA INU",
+            "image": "https://cryptologos.cc/logos/shiba-inu-shib-logo.svg?v=029",
+            "currencySymbol": "SHIB",
+            "type": "crypto"
+        },
+        {
+            "name": "Uniswap",
+            "image": "https://cryptologos.cc/logos/uniswap-uni-logo.svg?v=029",
+            "currencySymbol": "UNI",
+            "type": "crypto"
+        }
+    ],
+    "cryptoNetwork": [
+        {
+            "currencyId": "",
+            "currencySymbol": "BTC",
+            "network": [
+                "bitcoin"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "ETH",
+            "network": [
+                "ethereum"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "USDT",
+            "network": [
+                "ethereum",
+                "tron",
+                "binance",
+                "polygon",
+                "cronos",
+                "avalanche",
+                "arbitrum"
+            ],
+            "address": [
+                "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+                "0x524bc91dc82d6b90ef29f76a3ecaabafffd490bc",
+                "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+                "0x66e428c3f67a68878562e79a0234c1f83c208770",
+                "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+                "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "USDC",
+            "network": [
+                "ethereum",
+                "tron",
+                "binance",
+                "cronos",
+                "avalanche",
+                "arbitrum"
+            ],
+            "address": [
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+                "0x8965349fb649a33a30cbfda057d8ec2c48abe2a2",
+                "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "TRX",
+            "network": [
+                "tron"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "BNB",
+            "network": [
+                "binance"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "BUSD",
+            "network": [
+                "binance",
+                "avalanche",
+                "cronos"
+            ],
+            "address": [
+                "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+                "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "MATIC",
+            "network": [
+                "polygon"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "CRO",
+            "network": [
+                "cronos"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "AVAX",
+            "network": [
+                "avalanche"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "FTM",
+            "network": [
+                "fantom"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "ARB",
+            "network": [
+                "arbitrum"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "DOGE",
+            "network": [
+                "dogecoin"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "CAKE",
+            "network": [
+                "binance",
+                "ethereum"
+            ],
+            "address": [
+                "",
+                ""
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "SHIB",
+            "network": [
+                "ethereum",
+                "binance",
+                "cronos"
+            ],
+            "address": [
+                "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "0xb1547683da678f2e1f003a780143ec10af8a832b",
+                "0xbED48612BC69fA1CaB67052b42a95FB30C1bcFee"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "UNI",
+            "network": [
+                "ethereum",
+                "arbitrum"
+            ],
+            "address": [
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0"
+            ]
+        }
+    ],
+    "favorite": [
+        {
+            "customerId": "657947a0853dab65b66e95a5",
+            "gameId": "vs20olympx",
+            "type": "casino"
+        },
+        {
+            "customerId": "657947a0853dab65b66e95a6",
+            "gameId": "vs20olympx",
+            "type": "casino"
+        }
+    ],
+    "agent": [
+        {
+            "adminId": "6572c45649070000310073a2",
+            "loginId": "",
+            "password": "",
+            "nickname": "",
+            "path": "",
+            "code": "20001",
+            "info.commissionMethod": 1,
+            "info.verify.otp": false
+        },
+        {
+            "adminId": "6572c45649070000310073a2",
+            "loginId": "",
+            "password": "",
+            "nickname": "",
+            "path": "",
+            "code": "2000",
+            "info.commissionMethod": 1,
+            "info.verify.otp": false
+        }
+    ],
+    "paymentMethod": [
+        {
+            "currencyId": "65843e161208f961d37afca5",
+            "name": "GFpay",
+            "logo": "image",
+            "transactionPerFee": "1.2",
+            "feePerTransaction": "550",
+            "min": "",
+            "max": ""
+        },
+        {
+            "currencyId": "6572c4564907000031007255",
+            "name": "new bank",
+            "logo": "image",
+            "transactionPerFee": "5",
+            "feePerTransaction": "1000",
+            "min": "100",
+            "max": "2000",
+            "form": [
+                {
+                    "label": "transactio fee: 0.5",
+                    "type": "text"
+                },
+                {
+                    "label": "name",
+                    "type": "number"
+                },
+                {
+                    "label": "bank",
+                    "type": "select",
+                    "select": [
+                        {
+                            "label": "a", "value": "a"
+                        },
+                        {
+                            "label": "a", "value": "a"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "casinoBetting": [
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280251174"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:15:55.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840703415140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280253590"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280251174"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:15:57.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840703415140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280256825"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:00.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840706627140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280259789"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280256825"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:16:03.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840706627140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280260084"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:03.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840708296140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280263049"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280260084"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:16:05.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840708296140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280263211"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:06.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840709972140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280265569"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280263211"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:16:08.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840709972140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280266260"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:08.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840711709140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280268593"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280266260"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:16:10.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840711709140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280268811"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:11.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840713154140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 300,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280274008"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280268811"
+                },
+                "amount": 300,
+                "processed_at": "2023-12-23T07:16:15.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840713154140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        }
+    ]
+}

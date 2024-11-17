@@ -1,0 +1,736 @@
+{
+    "currency": [
+        {
+            "name": "KRW",
+            "image": "https://storage.goodfriendszone.com/uploads/permanent/1703094140698.webp",
+            "currencySymbol": "KRW",
+            "type": "fiat"
+        },
+        {
+            "name": "Bitcoin",
+            "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=029",
+            "currencySymbol": "BTC",
+            "type": "crypto"
+        },
+        {
+            "name": "Ethereum",
+            "image": "https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=029",
+            "currencySymbol": "ETH",
+            "type": "crypto"
+        },
+        {
+            "name": "tether usd",
+            "image": "https://cryptologos.cc/logos/tether-usdt-logo.svg?v=029",
+            "currencySymbol": "USDT",
+            "type": "crypto"
+        },
+        {
+            "name": "USD coin",
+            "image": "https://cryptologos.cc/logos/usd-coin-usdc-logo.svg?v=029",
+            "currencySymbol": "USDC",
+            "type": "crypto"
+        },
+        {
+            "name": "TRON",
+            "image": "https://cryptologos.cc/logos/tron-trx-logo.svg?v=029",
+            "currencySymbol": "TRX",
+            "type": "crypto"
+        },
+        {
+            "name": "Binance",
+            "image": "https://cryptologos.cc/logos/bnb-bnb-logo.svg?v=029",
+            "currencySymbol": "BNB",
+            "type": "crypto"
+        },
+        {
+            "name": "Binance USD",
+            "image": "https://cryptologos.cc/logos/binance-usd-busd-logo.svg?v=029",
+            "currencySymbol": "BUSD",
+            "type": "crypto"
+        },
+        {
+            "name": "PancakeSwap",
+            "image": "https://cryptologos.cc/logos/pancakeswap-cake-logo.svg?v=029",
+            "currencySymbol": "CAKE",
+            "type": "crypto"
+        },
+        {
+            "name": "SHIBA INU",
+            "image": "https://cryptologos.cc/logos/shiba-inu-shib-logo.svg?v=029",
+            "currencySymbol": "SHIB",
+            "type": "crypto"
+        },
+        {
+            "name": "Uniswap",
+            "image": "https://cryptologos.cc/logos/uniswap-uni-logo.svg?v=029",
+            "currencySymbol": "UNI",
+            "type": "crypto"
+        }
+    ],
+    "cryptoNetwork": [
+        {
+            "currencyId": "",
+            "currencySymbol": "BTC",
+            "network": [
+                "bitcoin"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "ETH",
+            "network": [
+                "ethereum"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "USDT",
+            "network": [
+                "ethereum",
+                "tron",
+                "binance"
+            ],
+            "address": [
+                "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+                "0x524bc91dc82d6b90ef29f76a3ecaabafffd490bc"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "USDC",
+            "network": [
+                "ethereum",
+                "tron",
+                "binance"
+            ],
+            "address": [
+                "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+                "0x8965349fb649a33a30cbfda057d8ec2c48abe2a2"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "TRX",
+            "network": [
+                "tron"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "BNB",
+            "network": [
+                "binance"
+            ],
+            "address": [
+                "nativetoken"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "BUSD",
+            "network": [
+                "binance"
+            ],
+            "address": [
+                "0xe9e7cea3dedca5984780bafc599bd69add087d56"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "CAKE",
+            "network": [
+                "binance",
+                "ethereum"
+            ],
+            "address": [
+                "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+                "0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "SHIB",
+            "network": [
+                "ethereum",
+                "binance"
+            ],
+            "address": [
+                "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+                "0x2859e4544c4bb03966803b044a93563bd2d0dd4d"
+            ]
+        },
+        {
+            "currencyId": "",
+            "currencySymbol": "UNI",
+            "network": [
+                "ethereum"
+            ],
+            "address": [
+                "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+            ]
+        }
+    ],
+    "paymentMethod": [
+        {
+            "currencyId": "6572c45649070000310073a2",
+            "symbol": "KRW",
+            "name": "GFpay",
+            "logo": "https://storage.goodfriendszone.com/uploads/permanent/1705516711348.webp",
+            "transactionPerFee": "1.2",
+            "feePerTransaction": "550",
+            "min": "10000",
+            "max": "2000000",
+            "form": [
+                {
+                    "label": "Amount",
+                    "type": "number"
+                }
+            ]
+        }
+    ],
+    "casinoBetting": [
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280251174"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:15:55.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840703415140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280253590"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280251174"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:15:57.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840703415140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280256825"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:00.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840706627140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280259789"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280256825"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:16:03.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840706627140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280260084"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:03.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840708296140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280263049"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280260084"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:16:05.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840708296140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280263211"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:06.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840709972140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280265569"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280263211"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:16:08.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840709972140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280266260"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:08.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840711709140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 0,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280268593"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280266260"
+                },
+                "amount": 0,
+                "processed_at": "2023-12-23T07:16:10.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840711709140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": -200,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280268811"
+                },
+                "type": "bet",
+                "referer_id": null,
+                "amount": -200,
+                "processed_at": "2023-12-23T07:16:11.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840713154140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        },
+        {
+            "username": "development@goodfriendslink.com",
+            "amount": 300,
+            "transaction": {
+                "id": {
+                    "$numberLong": "21280274008"
+                },
+                "type": "win",
+                "referer_id": {
+                    "$numberLong": "21280268811"
+                },
+                "amount": 300,
+                "processed_at": "2023-12-23T07:16:15.000000Z",
+                "details": {
+                    "game": {
+                        "id": "vs20olympx",
+                        "round": "29840713154140",
+                        "title": "Gates of Olympus 1000",
+                        "type": "slot",
+                        "vendor": "PragmaticPlay"
+                    }
+                },
+                "target": {
+                    "id": 5394048,
+                    "username": "development@goodfriendslink.com",
+                    "balance": 16225,
+                    "point": "0.00"
+                }
+            }
+        }
+    ],
+    "mainLeagueId": [
+        {
+            "sportsName": "soccer",
+            "type": "odds",
+            "leagueId": "1204"
+        },
+        {
+            "sportsName": "tennis",
+            "type": "odds",
+            "leagueId": "19532"
+        },
+        {
+            "sportsName": "basketball",
+            "type": "odds",
+            "leagueId": "1046"
+        },
+        {
+            "sportsName": "hockey",
+            "type": "odds",
+            "leagueId": "3877"
+        },
+        {
+            "sportsName": "handball",
+            "type": "odds",
+            "leagueId": "1007"
+        },
+        {
+            "sportsName": "volleyball",
+            "type": "odds",
+            "leagueId": "1127"
+        },
+        {
+            "sportsName": "american-football",
+            "type": "odds",
+            "leagueId": "1002"
+        },
+        {
+            "sportsName": "rugby",
+            "type": "odds",
+            "leagueId": "1233"
+        },
+        {
+            "sportsName": "baseball",
+            "type": "odds",
+            "leagueId": "1000"
+        },
+        {
+            "sportsName": "boxing",
+            "type": "odds",
+            "leagueId": "1429"
+        },
+        {
+            "sportsName": "esports",
+            "type": "odds",
+            "leagueId": "7129"
+        },
+        {
+            "sportsName": "table-tennis",
+            "type": "odds",
+            "leagueId": "40791"
+        },
+        {
+            "sportsName": "golf",
+            "type": "odds",
+            "leagueId": "1304"
+        },
+        {
+            "sportsName": "darts",
+            "type": "odds",
+            "leagueId": "1174"
+        },
+        {
+            "sportsName": "rugby-league",
+            "type": "odds",
+            "leagueId": "1006"
+        }
+    ],
+    "mainOddNames": [
+        {
+            "sportsName": "soccer",
+            "type": "odds",
+            "odd1": "Match Winner",
+            "odd2": "Asian Handicap",
+            "odd3": "Total - Home"
+        },
+        {
+            "sportsName": "tennis",
+            "type": "odds",
+            "odd1": "Home/Away",
+            "odd2": "Asian Handicap (Sets)",
+            "odd3": "Total - Home"
+        },
+        {
+            "sportsName": "basketball",
+            "type": "odds",
+            "odd1": "3Way Result",
+            "odd2": "Asian Handicap",
+            "odd3": "Over/Under"
+        },
+        {
+            "sportsName": "hockey",
+            "type": "odds",
+            "odd1": "3Way Result",
+            "odd2": "Asian Handicap (Reg Time)",
+            "odd3": "Total - Home"
+        },
+        {
+            "sportsName": "handball",
+            "type": "odds",
+            "odd1": "3Way Result",
+            "odd2": "Asian Handicap",
+            "odd3": "Total - Home"
+        },
+        {
+            "sportsName": "volleyball",
+            "type": "odds",
+            "odd1": "Home/Away",
+            "odd2": "Asian Handicap (Sets)",
+            "odd3": "Total - Home"
+        },
+        {
+            "sportsName": "american-football",
+            "type": "odds",
+            "odd1": "Match Winner",
+            "odd2": "Asian Handicap",
+            "odd3": "Total - Home"
+        },
+        {
+            "sportsName": "rugby",
+            "type": "odds",
+            "odd1": "3Way Result",
+            "odd2": "Asian Handicap",
+            "odd3": "Total - Home"
+        },
+        {
+            "sportsName": "baseball",
+            "type": "odds",
+            "odd1": "Home/Away",
+            "odd2": "",
+            "odd3": ""
+        },
+        {
+            "sportsName": "boxing",
+            "type": "odds",
+            "odd1": "3Way Result",
+            "odd2": "Home/Away",
+            "odd3": "Over/Under"
+        },
+        {
+            "sportsName": "esports",
+            "type": "odds",
+            "odd1": "3Way Result",
+            "odd2": "Maps Handicap",
+            "odd3": "Home/Away (map 1)"
+        },
+        {
+            "sportsName": "table-tennis",
+            "type": "odds",
+            "odd1": "Home/Away",
+            "odd2": "",
+            "odd3": ""
+        },
+        {
+            "sportsName": "golf",
+            "type": "odds",
+            "odd1": "Home/Away",
+            "odd2": "",
+            "odd3": ""
+        },
+        {
+            "sportsName": "darts",
+            "type": "odds",
+            "odd1": "Home/Away",
+            "odd2": "Asian Handicap",
+            "odd3": "Odd/Even"
+        },
+        {
+            "sportsName": "rugby-league",
+            "type": "odds",
+            "odd1": "3Way Result",
+            "odd2": "Asian Handicap",
+            "odd3": "Home/Away"
+        }
+    ]
+}
